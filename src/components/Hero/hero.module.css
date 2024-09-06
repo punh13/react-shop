@@ -30,6 +30,7 @@ button {
 .highlight {
   background-color: #646cff;
   margin-bottom: 1rem;
+  color: white;
 }
 
 @media (min-width: 768px) {
