@@ -1,0 +1,73 @@
+.hero {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.hero h1 {
+  padding-bottom: 1rem;
+}
+
+.hero h1 span {
+  color: #646cff;
+}
+
+.hero p {
+  padding-bottom: 1rem;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  width: 80%;
+}
+.highlight {
+  background-color: #646cff;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    width: 70%;
+    padding: 3rem 2rem;
+    margin: auto;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+
+  button {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    padding: 4rem 3rem;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero p {
+    font-size: 1.3rem;
+  }
+
+  .highlight,
+  .learnMoreButton {
+    width: 35%;
+    font-size: 1.1em;
+  }
+}

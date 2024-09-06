@@ -1,0 +1,151 @@
+.cartContainer {
+  padding: 2rem;
+  text-align: center;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.cartIcon {
+  cursor: pointer;
+}
+
+.cartItemList {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: start;
+}
+
+.cartItemList img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.quantity {
+  margin: auto 0;
+}
+
+.quantityChange {
+  display: flex;
+  gap: 10px;
+}
+
+.removeBtn {
+  background-color: #646cff;
+  height: 40px;
+  font-size: 12px;
+  width: 100%;
+}
+
+.quantityChangeBtns {
+  width: 40px;
+  height: 40px;
+}
+
+.subtotalAmount {
+  font-size: 1.5rem;
+}
+
+/* payment page */
+
+.cardPayment {
+  width: 80%;
+  max-width: 350px;
+  margin: 3rem auto;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.cardPayment:hover {
+  border-color: #646cff;
+}
+
+.cardPaymentTitle {
+  text-align: center;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.formRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputField {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  font-size: 1rem;
+  height: 2.5rem;
+  box-sizing: border-box;
+}
+
+.paymentButtonContainer {
+  width: 100%;
+}
+
+.paymentButton {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #646cff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.paymentButton:hover {
+  background-color: #6970fc;
+}
+
+@media (min-width: 768px) {
+  .cartItemList {
+    grid-template-columns: 30% 70%;
+    gap: 2rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .subtotalAmount {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cartItemList {
+    grid-template-columns: 25% 75%;
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .subtotalAmount {
+    font-size: 2.5rem;
+  }
+}
