@@ -54,6 +54,10 @@
   box-sizing: border-box;
 }
 
+.formGroup input:focus {
+  border-color: #646cff;
+}
+
 .loginButton,
 .signUpButton {
   width: 100%;
@@ -193,7 +197,7 @@
 .loggedInLink {
   margin-top: 20px;
   font-size: 16px;
-  color: #6970fc;
+  color: #646cff;
   text-decoration: underline;
   cursor: pointer;
 }
